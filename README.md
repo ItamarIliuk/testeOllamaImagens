@@ -17,9 +17,9 @@ pip install ollama pillow
 1. Inicie o servidor do Ollama e certifique-se de que o modelo `llava` está disponível.
 2. Execute o aplicativo:
 
-```powershell
-python multimodalchat.py
-```
+   ```powershell
+   python multimodalchat.py
+   ```
 
 3. Na janela da aplicação:
    - Escreva ou ajuste o prompt na área de texto.
