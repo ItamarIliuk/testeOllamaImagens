@@ -132,7 +132,7 @@ class MultimodalChatApp:
     try:
       img_b64 = base64.b64encode(image_path.read_bytes()).decode()
       response = chat(
-        model="llava",
+        model="gemma4:e4b",
         messages=[
           {
             "role": "user",

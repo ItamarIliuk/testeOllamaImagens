@@ -22,7 +22,7 @@ app.add_middleware(
 async def analyze_image(
     image: UploadFile = File(...),
     prompt: str = Form(...),
-    model: str = Form("llava"),
+    model: str = Form("gemma4:e4b"),
 ) -> StreamingResponse:
     """
     Analyzes an uploaded image using Ollama and streams the response.
